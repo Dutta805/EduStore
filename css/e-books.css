@@ -1,0 +1,258 @@
+body
+{
+    font-family:sans-serif;
+    width: 99.9%;
+    height: 1200px;
+    margin-left: -6px;
+}
+
+
+#container
+{
+    height: 100px;
+    width: 101.1%;
+    background-color:aqua;
+    margin-top: -8px;
+    margin-left: -8px;
+    background: url("../images/wooden.jpg");
+}
+
+#container h1
+{
+    width: 200px;
+    height: 60px;
+    padding: 8px;
+    margin-top: 2px;
+    margin-left: 20px;
+    font-family:fantasy;
+    font-size: 50px;
+    background-color: chartreuse;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color:dimgray;
+}
+
+#tools
+{
+    height: 70px;
+    width: 890px;
+    margin-left: 240px;
+    background-color: darkslateblue;
+    margin-top: -126px;
+}
+
+#tools ul
+{
+    margin-left: -32px;
+    margin-top: 9px;
+}
+#tools ul li
+{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    height: 450px;
+    width: 500px;
+    margin-top: 50px;
+    background-color:darkorchid;
+    margin-left: 0px;
+}       
+
+#tools ul li a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+#find
+{
+    height: 38px;
+    width: 210px;
+    margin-top: -50px;
+    margin-left: 800px;
+}
+
+#find input
+{
+    margin-top: -40px;
+    margin-left: 330px;
+}
+
+input[type="text"]
+{
+    height: 30px;
+width: 150px;
+font-size:15px;
+border: none;
+background-color: #ffff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+#find img
+{
+    height: 23px;
+    margin-left: 515px;
+    margin-top: -70px;
+}
+
+#find img:hover
+{
+    background-color: darkorange;
+    transition: all 0.45s;
+}
+
+#options
+{
+    height: 80px;
+    width: 1349px;
+    margin-left: 6px;
+    background: url("../images/blocks.png");
+    margin-top: 5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#options p
+{
+    height: 50px;
+    width: 150px;
+    margin-left: 20px;
+    margin-top: -12px;
+    font-size: 24px;
+    padding-top: 20px;
+    text-align: center;
+    font-family: fantasy;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background: rgba(209, 37, 43, 0.9);
+    color: #ffffff;
+}
+
+#options ul
+{
+    margin-left: 200px;
+    margin-top: -62px;
+}
+#options ul li
+{
+    list-style: none;
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 450px;
+    width: 500px;
+    margin-top: 50px;
+    background-color:#d1252b;
+    margin-left: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}       
+
+#options ul li a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+#find2
+{
+    height: 28px;
+    width: 210px;
+    margin-top: -40px;
+    margin-left: 1100px;
+}
+
+#find2 input
+{
+    margin-top: -10px;
+}
+
+input[type="text"]
+{
+    height: 30px;
+width: 150px;
+font-size:15px;
+border: none;
+background-color: #ffff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+#find2 img
+{
+    height: 23px;
+}
+#find2 img:hover
+{
+    background-color: darkorange;
+    transition: all 0.45s;
+}
+
+table
+{
+margin-left: 8px;
+margin-top: 5px;
+height: 950px;
+width:1345px;
+background: url("../images/ebook.jpg");
+}
+
+table, td, tr
+{
+    border: 2px solid black;
+}
+
+td
+{
+    margin-left: 80px;
+    padding-left: 5px;
+    padding-right: 10px;
+    background-color: rgba(249, 249, 249, 0.8);
+    font-size: 16px;
+    text-align: center;
+}
+
+#footer
+{
+    height: 63px;
+    width:100%;
+    margin-top: 5px;
+    margin-left: 7px;
+    background-color:#34ef85;
+}
+
+#footer p
+{
+    margin-left: 10px;
+    margin-top: -2px;
+    width: 150px;
+    font-family: monospace;
+    font: bold;
+    color: #211818;
+    font-size: 16px;
+}
+
+#button
+{
+    width: 90px;
+    margin-left: 1250px;
+    margin-top: -40px;
+}
+
+#button input
+{
+    padding-left: 8px;
+    background-color:#e8ce09;
+}

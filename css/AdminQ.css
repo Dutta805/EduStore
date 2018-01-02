@@ -1,0 +1,131 @@
+body{
+margin: 0 auto;
+background: url("../images/botnets%20Leader.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#header
+            {
+                height: 100px;
+                width: 101%;
+                margin-left: -08px;
+                margin-top: -16px;
+                position: fixed;
+                background-color: darkslateblue;
+            }
+
+            #main
+            {
+                margin-top: 50px;
+            }
+            #main ul li
+            {
+                list-style:none;
+                display: inline;
+                color: azure;
+                padding: 15px;
+                border: 3px solid black;
+                margin-left: 5px;
+                border-bottom-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+            
+#main ul li:hover
+{
+    background-color: firebrick;
+    transition: all 0.45s;
+}
+
+            #main ul li a
+            {
+                text-decoration: none;
+                color: azure;
+            }
+
+.hoop{
+width: 800px;
+height: 660px;
+text-align: center;
+background-color: rgba(52, 73, 94, 0.7);
+border-radius: 4px;
+margin: 0 auto;
+margin-top:50px;
+font-family: cursive;
+color:azure;
+}
+
+.hoop h1
+{
+    color: darkorange;
+}
+
+input[type="text"],input[type="password"]{
+height: 30px;
+width: 500px;
+font-size:15px;
+border: none;
+margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+.form-input::before{
+content: "";
+position: absolute;
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size:35px;
+}
+
+.form-input:last-child::before{
+content: "\f023";
+}
+
+a{
+color: #fff;
+}
+
+#password p{
+    margin-left: 200px;
+}
+
+#dob p
+{
+    font-size: 20px;
+    color: coral;
+    font-family: cursive,fantasy;
+    text-align: left;
+    margin-left: 200px;
+}
+
+#dob select{
+    padding: 4px;
+    margin-bottom: 20px;
+background-color: #fff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+#password p
+{
+      font-size: 20px;
+    color: coral;
+    font-family: cursive,fantasy;
+    text-align: left;
+    margin-left: 200;
+}
+
+.btn-signup{
+height: 50px;
+width:90px;
+padding: 15px 25px;
+color: #fff;
+border-radius: 4px;
+border: none;
+background-color: #2ECC71;
+border-bottom: 4px solid #27AE60;
+margin-bottom: 20px;
+margin-left: 12px;
+    cursor: pointer;
+}

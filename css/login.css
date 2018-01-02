@@ -1,0 +1,161 @@
+body
+{
+    font-family:sans-serif;
+    width: 99.9%;
+    height: 600px;
+    margin-left: -6px;
+    margin-top: 10px
+}
+
+#header
+{
+    height: 110px;
+    width: 101%;
+    margin-left: -08px;
+    margin-top: -16px;
+    position: fixed;
+    background-color: darkslateblue;
+}
+
+#header img
+{
+    margin-left: 1200px;
+}
+
+#main
+{
+    margin-top: 50px;
+}
+#main ul li
+{
+    list-style:none;
+    display: inline;
+    color: azure;
+    padding: 15px;
+    border: 3px solid black;
+    margin-left: 5px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#main ul li:hover
+{
+    background-color: firebrick;
+    transition: all 0.45s;
+}
+
+#main ul li a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+
+
+
+
+#back
+{
+    height: 500px;
+    width:101.1%;
+    margin-left: -8px;
+    margin-top: 28px;
+    background: url("../images/smoke.jpg");
+    background-repeat: no-repeat;
+}
+
+#back h1
+{
+     width: 200px;
+    height: 60px;
+    padding: 8px;
+    margin-top: 80px;
+    margin-left: 90px;
+    font-family:fantasy;
+    font-size: 50px;
+    background-color: chartreuse;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    color:dimgray;
+}
+
+#hoop
+{
+width: 400px;
+height: 400px;
+text-align: center;
+background-color: rgba(192, 192, 192, 0.7);
+border-radius: 4px;
+margin: 0 auto;
+margin-top: -160px;
+color:crimson;
+font-family: cursive;
+}
+
+.bttn
+{
+    height: 50px;
+width:90px;
+padding: 15px 25px;
+color: #fff;
+border-radius: 4px;
+border: none;
+background-color: #2ECC71;
+border-bottom: 4px solid #27AE60;
+margin-bottom: 20px;
+margin-left: 10px;
+    cursor: pointer;
+}
+
+#hoop h2
+{
+font-family: cursive;
+color:darkgoldenrod;
+}
+
+input[type="text"],input[type="password"]{
+height: 30px;
+width: 200px;
+font-size:15px;
+border: none;
+margin-bottom: 20px;
+background-color: #ffff;
+border-radius: 4px;
+padding-left: 30px;
+}
+
+#footer
+{
+    height: 142px;
+    width:101.1%;
+    margin-left: -8px;
+    margin-top: -16px;
+    background-color: darkslateblue;
+}
+
+.l1
+{
+    padding: 10px;
+    width: 250px;
+    list-style: none;
+    display: inline;
+    float: left;
+    margin-left: 40px;
+    margin-top: 18px;
+    color: beige;
+}
+
+.l1 li
+{
+    list-style: none;
+    margin-left: -40px;
+    color:coral
+}
+
+.l1 li a
+{
+    text-decoration: none;
+    color:coral;
+}
